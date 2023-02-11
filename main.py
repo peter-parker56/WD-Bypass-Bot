@@ -220,9 +220,9 @@ async def start(_: pbot, m: Message):
 You just need to send me the message containing the links! I will replace the un shorted link and send you back!
 Do wait for 10 seconds for each link to process and bypass after sending the links!
 
-**Support: @GreyMatter_Bots!**
+**Support: @Opleech!**
 
-**Subscribe: https://youtube.com/@GreyMattersYT**""")
+**Subscribe: https://t.me/Opleech/@Opleech**""")
     return
 
 
@@ -234,7 +234,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                            ChatMemberStatus.RESTRICTED):
             await cmd.reply_text(
                 text=
-                "Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/greymatters_bots_discussion).",
+                "Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/Opleech_discussion).",
                 disable_web_page_preview=True,
             )
             return 0
@@ -246,8 +246,8 @@ async def handle_force_sub(bot: Client, cmd: Message):
                 reply_markup=InlineKeyboardMarkup([
                     [
                         InlineKeyboardButton(
-                            "🤖 Join Updates Channel",
-                            url="t.me/GreyMatter_Bots",
+                            "🌺 Join Updates Channel",
+                            url="t.me/Opleech",
                         )
                     ],
                 ]),
@@ -262,7 +262,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await cmd.reply_text(
             text=
-            "Something went Wrong! Contact my [Support Group](https://t.me/greymatters_bots_discussion)",
+            "Something went Wrong! Contact my [Support Group](https://t.me/Opleech_discussion)",
             disable_web_page_preview=True,
         )
         return 0

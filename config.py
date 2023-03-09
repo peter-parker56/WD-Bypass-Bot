@@ -14,6 +14,6 @@ class Config:
     Gtot_crypt = os.environ.get("Gtot_crypt", "")
     Appdrive_email = os.environ.get("Appdrive_email", "")
     Appdrive_password = os.environ.get("Appdrive_password", "")
-    Hubdrive_crypt = os.environ.get("Hubdrive_crypt", "j")
+    Hubdrive_crypt = os.environ.get("Hubdrive_crypt", "")
     Sharerpw_xsrf_token = os.environ.get("Sharerpw_xsrf_token", "")
     Sharerpw_laravel_session = os.environ.get("Sharerpw_laravel_session", "")

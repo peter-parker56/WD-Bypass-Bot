@@ -216,13 +216,13 @@ class Httpx:
 @pbot.on_message(filters.command("start") & filters.private)
 async def start(_: pbot, m: Message):
     await m.reply_text("""
-**Hey there i'm alive! I can bypass many URL Shortener website links**
-You just need to send me the message containing the links! I will replace the un shorted link and send you back!
-Do wait for 10 seconds for each link to process and bypass after sending the links!
+**ʜᴇʏ ᴛʜᴇʀᴇ ɪ'ᴍ ᴀʟɪᴠᴇ! I ᴄᴀɴ ʙʏᴘᴀꜱꜱ ᴍᴀɴʏ ᴜʀʟ ꜱʜᴏʀᴛᴇɴᴇʀ ᴡᴇʙꜱɪᴛᴇ ʟɪɴᴋꜱ**
+𝒀𝒐𝒖 𝒋𝒖𝒔𝒕 𝒏𝒆𝒆𝒅 𝒕𝒐 𝒔𝒆𝒏𝒅 𝒎𝒆 𝒕𝒉𝒆 𝒎𝒆𝒔𝒔𝒂𝒈𝒆 𝒄𝒐𝒏𝒕𝒂𝒊𝒏𝒊𝒏𝒈 𝒕𝒉𝒆 𝒍𝒊𝒏𝒌𝒔! 𝑰 𝒘𝒊𝒍𝒍 𝒓𝒆𝒑𝒍𝒂𝒄𝒆 𝒕𝒉𝒆 𝒖𝒏 𝒔𝒉𝒐𝒓𝒕𝒆𝒅 𝒍𝒊𝒏𝒌 𝒂𝒏𝒅 𝒔𝒆𝒏𝒅 𝒚𝒐𝒖 𝒃𝒂𝒄𝒌!
+𝑫𝒐 𝒘𝒂𝒊𝒕 𝒇𝒐𝒓 10 𝒔𝒆𝒄𝒐𝒏𝒅𝒔 𝒇𝒐𝒓 𝒆𝒂𝒄𝒉 𝒍𝒊𝒏𝒌 𝒕𝒐 𝒑𝒓𝒐𝒄𝒆𝒔𝒔 𝒂𝒏𝒅 𝒃𝒚𝒑𝒂𝒔𝒔 𝒂𝒇𝒕𝒆𝒓 𝒔𝒆𝒏𝒅𝒊𝒏𝒈 𝒕𝒉𝒆 𝒍𝒊𝒏𝒌𝒔!
 
-**Support: @Opleech!**
+**ꜱᴜᴘᴘᴏʀᴛ: @world_of_pardox76**
 
-**Subscribe: https://t.me/Opleech/@Opleech**""")
+**ꜱᴜʙꜱᴄʀɪʙᴇ: https://t.me/world_0f_parad0x**""")
     return
 
 
@@ -234,7 +234,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                            ChatMemberStatus.RESTRICTED):
             await cmd.reply_text(
                 text=
-                "Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/Opleech_discussion).",
+                "Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/world_of_pardox76).",
                 disable_web_page_preview=True,
             )
             return 0
@@ -247,7 +247,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                     [
                         InlineKeyboardButton(
                             "🌺 Join Updates Channel",
-                            url="t.me/Opleech",
+                            url="t.me/world_0f_parad0x",
                         )
                     ],
                 ]),
@@ -262,7 +262,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await cmd.reply_text(
             text=
-            "Something went Wrong! Contact my [Support Group](https://t.me/Opleech_discussion)",
+            "Something went Wrong! Contact my [Support Group](https://t.me/world_of_pardox76)",
             disable_web_page_preview=True,
         )
         return 0
